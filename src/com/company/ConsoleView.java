@@ -3,7 +3,7 @@ package com.company;
 public class ConsoleView implements View{
     @Override
     public void Clientready(Client client) {
-        System.out.println("Client "+ client.getName()+ " "+ client.getSurname()+ " want to buy a ticket for this flight for price: "+ client.getPrice()+ " |ID: "+ client.getId());
+        System.out.println("Clientuln "+ client.getName()+ " "+ client.getSurname()+ " want to buy a ticket for this flight for price: "+ client.getPrice()+ " |ID: "+ client.getId());
     }
 
     public void Clientrefuse(Client client){
